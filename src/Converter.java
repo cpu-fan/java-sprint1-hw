@@ -1,11 +1,6 @@
 public class Converter {
-    int avgStep; // размер среднего шага в сантиметрах
-    int avgCal; // количество сожженных калорий за 1 шаг
-
-    public Converter() {
-        avgStep = 75; // принимаем значение по умолчанию 75
-        avgCal = 50; // принимаем значение по умолчанию 50
-    }
+    int avgStep = 75;
+    int avgCal = 50;
 
     // Конвертирование шагов в километры
     public double distanceInKm(int steps) {
